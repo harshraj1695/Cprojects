@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="clienserver" Database="" Version="10000">
+  <Project Name="client" Path="client/client.project" Active="No"/>
+  <Project Name="server" Path="server/server.project" Active="No"/>
+  <Project Name="clientsimple" Path="clientsimple/clientsimple.project" Active="No"/>
+  <Project Name="dynamicclient" Path="dynamicclient/dynamicclient.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="client" ConfigName="Debug"/>
+      <Project Name="server" ConfigName="Debug"/>
+      <Project Name="clientsimple" ConfigName="Debug"/>
+      <Project Name="dynamicclient" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="client" ConfigName="Release"/>
+      <Project Name="server" ConfigName="Release"/>
+      <Project Name="clientsimple" ConfigName="Release"/>
+      <Project Name="dynamicclient" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

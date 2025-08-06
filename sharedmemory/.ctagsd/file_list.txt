@@ -1,0 +1,6 @@
+/home/harsh1695/office/sharedmemory/forkmemorymap/main.c
+/home/harsh1695/office/sharedmemory/meorymaping/main.c
+/home/harsh1695/office/sharedmemory/readwrite2/main.c
+/home/harsh1695/office/sharedmemory/readwrite/main.c
+/home/harsh1695/office/sharedmemory/accessprocess/main.c
+/home/harsh1695/office/sharedmemory/cretaerprocess/main.c

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Workspace1" Database="" Version="10000">
+  <Project Name="project1" Path="project1/project1.project" Active="No"/>
+  <Project Name="project2" Path="project2/project2.project" Active="No"/>
+  <Project Name="project3" Path="project3/project3.project" Active="No"/>
+  <Project Name="project4" Path="project4/project4.project" Active="No"/>
+  <Project Name="objectfile" Path="Workspace1/Workspace1.project" Active="No"/>
+  <Project Name="projectextern" Path="projectextern/projectextern.project" Active="No"/>
+  <Project Name="variblearray" Path="variblearray/variblearray.project" Active="No"/>
+  <Project Name="objdump" Path="objdump/objdump.project" Active="No"/>
+  <Project Name="restirct" Path="restirct/restirct.project" Active="No"/>
+  <Project Name="getchar" Path="getchar/getchar.project" Active="No"/>
+  <Project Name="getc" Path="getc/getc.project" Active="No"/>
+  <Project Name="varadic" Path="varadic/varadic.project" Active="No"/>
+  <Project Name="recursionWorkspace1" Path="recursionWorkspace1/recursionWorkspace1.project" Active="No"/>
+  <Project Name="macro_practice" Path="macro_practice/macro_practice.project" Active="No"/>
+  <Project Name="unionitfield" Path="unionitfield/unionitfield.project" Active="No"/>
+  <Project Name="doublepointer" Path="doublepointer/doublepointer.project" Active="No"/>
+  <Project Name="gdbdebug" Path="gdbdebug/gdbdebug.project" Active="No"/>
+  <Project Name="functionpointer" Path="functionpointer/functionpointer.project" Active="No"/>
+  <Project Name="pointertofunctionpointer" Path="pointertofunctionpointer/pointertofunctionpointer.project" Active="No"/>
+  <Project Name="constapproachptr" Path="constapproachptr/constapproachptr.project" Active="No"/>
+  <Project Name="viodpointer" Path="viodpointer/viodpointer.project" Active="No"/>
+  <Project Name="qsort" Path="qsort/qsort.project" Active="No"/>
+  <Project Name="doublebasicpointer" Path="doublebasicpointer/doublebasicpointer.project" Active="No"/>
+  <Project Name="linkedlist" Path="linkedlist/linkedlist.project" Active="No"/>
+  <Project Name="stack" Path="stack/stack.project" Active="No"/>
+  <Project Name="signal" Path="signal/signal.project" Active="No"/>
+  <Project Name="signal" Path="signal/signal.project" Active="No"/>
+  <Project Name="singnalhandler" Path="singnalhandler/singnalhandler.project" Active="No"/>
+  <Project Name="sigaction" Path="sigaction/sigaction.project" Active="No"/>
+  <Project Name="threadbasic" Path="threadbasic/threadbasic.project" Active="No"/>
+  <Project Name="threadarg" Path="threadarg/threadarg.project" Active="No"/>
+  <Project Name="forkfu" Path="forkfu/forkfu.project" Active="No"/>
+  <Project Name="selft_thread" Path="selft_thread/selft_thread.project" Active="No"/>
+  <Project Name="mtextbasic" Path="mtextbasic/mtextbasic.project" Active="No"/>
+  <Project Name="mutextmutithread" Path="mutextmutithread/mutextmutithread.project" Active="No"/>
+  <Project Name="deadlockmutex\" Path="deadlockmutex\/deadlockmutex\.project" Active="No"/>
+  <Project Name="trylock" Path="trylock/trylock.project" Active="No"/>
+  <Project Name="conditionalmutex" Path="conditionalmutex/conditionalmutex.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="project1" ConfigName="Debug"/>
+      <Project Name="project2" ConfigName="Debug"/>
+      <Project Name="project3" ConfigName="Debug"/>
+      <Project Name="project4" ConfigName="Debug"/>
+      <Project Name="objectfile" ConfigName="Debug"/>
+      <Project Name="projectextern" ConfigName="Debug"/>
+      <Project Name="variblearray" ConfigName="Debug"/>
+      <Project Name="objdump" ConfigName="Debug"/>
+      <Project Name="restirct" ConfigName="Debug"/>
+      <Project Name="binarytodecimal.c" ConfigName="Debug"/>
+      <Project Name="dought.c" ConfigName="Debug"/>
+      <Project Name="bitset.c" ConfigName="Debug"/>
+      <Project Name="getchar" ConfigName="Debug"/>
+      <Project Name="getchar" ConfigName="Debug"/>
+      <Project Name="getc" ConfigName="Debug"/>
+      <Project Name="varadic" ConfigName="Debug"/>
+      <Project Name="recursionWorkspace1" ConfigName="Debug"/>
+      <Project Name="macro_practice" ConfigName="Debug"/>
+      <Project Name="unionitfield" ConfigName="Debug"/>
+      <Project Name="doublepointer" ConfigName="Debug"/>
+      <Project Name="gdbdebug" ConfigName="Debug"/>
+      <Project Name="functionpointer" ConfigName="Debug"/>
+      <Project Name="pointertofunctionpointer" ConfigName="Debug"/>
+      <Project Name="constapproachptr" ConfigName="Debug"/>
+      <Project Name="viodpointer" ConfigName="Debug"/>
+      <Project Name="qsort" ConfigName="Debug"/>
+      <Project Name="doublebasicpointer" ConfigName="Debug"/>
+      <Project Name="linkedlist" ConfigName="Debug"/>
+      <Project Name="stack" ConfigName="Debug"/>
+      <Project Name="signal" ConfigName="Debug"/>
+      <Project Name="signal" ConfigName="Debug"/>
+      <Project Name="singnalhandler" ConfigName="Debug"/>
+      <Project Name="sigaction" ConfigName="Debug"/>
+      <Project Name="threadbasic" ConfigName="Debug"/>
+      <Project Name="threadarg" ConfigName="Debug"/>
+      <Project Name="forkfu" ConfigName="Debug"/>
+      <Project Name="selft_thread" ConfigName="Debug"/>
+      <Project Name="mtextbasic" ConfigName="Debug"/>
+      <Project Name="mutextmutithread" ConfigName="Debug"/>
+      <Project Name="deadlockmutex\" ConfigName="Debug"/>
+      <Project Name="trylock" ConfigName="Debug"/>
+      <Project Name="conditionalmutex" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="project1" ConfigName="Release"/>
+      <Project Name="project2" ConfigName="Release"/>
+      <Project Name="project3" ConfigName="Release"/>
+      <Project Name="project4" ConfigName="Release"/>
+      <Project Name="objectfile" ConfigName="Release"/>
+      <Project Name="projectextern" ConfigName="Release"/>
+      <Project Name="variblearray" ConfigName="Release"/>
+      <Project Name="objdump" ConfigName="Release"/>
+      <Project Name="restirct" ConfigName="Release"/>
+      <Project Name="binarytodecimal.c" ConfigName="Release"/>
+      <Project Name="dought.c" ConfigName="Release"/>
+      <Project Name="bitset.c" ConfigName="Release"/>
+      <Project Name="getchar" ConfigName="Release"/>
+      <Project Name="getchar" ConfigName="Release"/>
+      <Project Name="getc" ConfigName="Release"/>
+      <Project Name="varadic" ConfigName="Release"/>
+      <Project Name="recursionWorkspace1" ConfigName="Release"/>
+      <Project Name="macro_practice" ConfigName="Release"/>
+      <Project Name="unionitfield" ConfigName="Release"/>
+      <Project Name="doublepointer" ConfigName="Release"/>
+      <Project Name="gdbdebug" ConfigName="Release"/>
+      <Project Name="functionpointer" ConfigName="Release"/>
+      <Project Name="pointertofunctionpointer" ConfigName="Release"/>
+      <Project Name="constapproachptr" ConfigName="Release"/>
+      <Project Name="viodpointer" ConfigName="Release"/>
+      <Project Name="qsort" ConfigName="Release"/>
+      <Project Name="doublebasicpointer" ConfigName="Release"/>
+      <Project Name="linkedlist" ConfigName="Release"/>
+      <Project Name="stack" ConfigName="Release"/>
+      <Project Name="signal" ConfigName="Release"/>
+      <Project Name="signal" ConfigName="Release"/>
+      <Project Name="singnalhandler" ConfigName="Release"/>
+      <Project Name="sigaction" ConfigName="Release"/>
+      <Project Name="threadbasic" ConfigName="Release"/>
+      <Project Name="threadarg" ConfigName="Release"/>
+      <Project Name="forkfu" ConfigName="Release"/>
+      <Project Name="selft_thread" ConfigName="Release"/>
+      <Project Name="mtextbasic" ConfigName="Release"/>
+      <Project Name="mutextmutithread" ConfigName="Release"/>
+      <Project Name="deadlockmutex\" ConfigName="Release"/>
+      <Project Name="trylock" ConfigName="Release"/>
+      <Project Name="conditionalmutex" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
