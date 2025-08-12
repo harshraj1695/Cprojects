@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Project2IPAddress" Database="" Version="10000">
-  <Project Name="version1" Path="version1/version1.project" Active="Yes"/>
+  <Project Name="version1" Path="version1/version1.project" Active="No"/>
   <Project Name="version2" Path="version2/version2.project" Active="No"/>
-  <Project Name="version3" Path="version3/version3.project" Active="No"/>
+  <Project Name="version3" Path="version3/version3.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>

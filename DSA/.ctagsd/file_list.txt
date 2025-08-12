@@ -1,0 +1,12 @@
+/home/harsh1695/office/DSA/flipnode/main.c
+/home/harsh1695/office/DSA/pathsum/main.c
+/home/harsh1695/office/DSA/heapify_minheap/main.c
+/home/harsh1695/office/DSA/longestpath/main.c
+/home/harsh1695/office/DSA/heap/main.c
+/home/harsh1695/office/DSA/divisontree/main.c
+/home/harsh1695/office/DSA/leftrightview/main.c
+/home/harsh1695/office/DSA/heightoftree/main.c
+/home/harsh1695/office/DSA/BST/main.c
+/home/harsh1695/office/DSA/binarytree/main.c
+/home/harsh1695/office/DSA/STACK/main.c
+/home/harsh1695/office/DSA/parathesisMatching/main.c

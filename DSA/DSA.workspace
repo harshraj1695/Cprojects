@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="DSA" Database="" Version="10000">
+  <Project Name="parathesisMatching" Path="parathesisMatching/parathesisMatching.project" Active="No"/>
+  <Project Name="STACK" Path="STACK/STACK.project" Active="No"/>
+  <Project Name="binarytree" Path="binarytree/binarytree.project" Active="No"/>
+  <Project Name="BST" Path="BST/BST.project" Active="Yes"/>
+  <Project Name="heightoftree" Path="heightoftree/heightoftree.project" Active="No"/>
+  <Project Name="leftrightview" Path="leftrightview/leftrightview.project" Active="No"/>
+  <Project Name="divisontree" Path="divisontree/divisontree.project" Active="No"/>
+  <Project Name="heap" Path="heap/heap.project" Active="No"/>
+  <Project Name="heapify_minheap" Path="heapify_minheap/heapify_minheap.project" Active="No"/>
+  <Project Name="longestpath" Path="longestpath/longestpath.project" Active="No"/>
+  <Project Name="pathsum" Path="pathsum/pathsum.project" Active="No"/>
+  <Project Name="flipnode" Path="flipnode/flipnode.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="parathesisMatching" ConfigName="Debug"/>
+      <Project Name="STACK" ConfigName="Debug"/>
+      <Project Name="binarytree" ConfigName="Debug"/>
+      <Project Name="BST" ConfigName="Debug"/>
+      <Project Name="heightoftree" ConfigName="Debug"/>
+      <Project Name="leftrightview" ConfigName="Debug"/>
+      <Project Name="divisontree" ConfigName="Debug"/>
+      <Project Name="heap" ConfigName="Debug"/>
+      <Project Name="heapify_minheap" ConfigName="Debug"/>
+      <Project Name="longestpath" ConfigName="Debug"/>
+      <Project Name="pathsum" ConfigName="Debug"/>
+      <Project Name="flipnode" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="parathesisMatching" ConfigName="Release"/>
+      <Project Name="STACK" ConfigName="Release"/>
+      <Project Name="binarytree" ConfigName="Release"/>
+      <Project Name="BST" ConfigName="Release"/>
+      <Project Name="heightoftree" ConfigName="Release"/>
+      <Project Name="leftrightview" ConfigName="Release"/>
+      <Project Name="divisontree" ConfigName="Release"/>
+      <Project Name="heap" ConfigName="Release"/>
+      <Project Name="heapify_minheap" ConfigName="Release"/>
+      <Project Name="longestpath" ConfigName="Release"/>
+      <Project Name="pathsum" ConfigName="Release"/>
+      <Project Name="flipnode" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
