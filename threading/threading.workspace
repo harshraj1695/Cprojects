@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="threading" Database="" Version="10000">
+  <Project Name="basicthreading" Path="basicthreading/basicthreading.project" Active="No"/>
+  <Project Name="thredingprimeno" Path="thredingprimeno/thredingprimeno.project" Active="Yes"/>
+  <Project Name="primewithmutex" Path="primewithmutex/primewithmutex.project" Active="No"/>
+  <Project Name="semaphorethreading" Path="semaphorethreading/semaphorethreading.project" Active="No"/>
+  <Project Name="mutex_problme" Path="mutex_problme/mutex_problme.project" Active="No"/>
+  <Project Name="countingthreading" Path="countingthreading/countingthreading.project" Active="No"/>
+  <Project Name="sumarray_mutex" Path="sumarray_mutex/sumarray_mutex.project" Active="No"/>
+  <Project Name="bankbalancemutexx" Path="bankbalancemutexx/bankbalancemutexx.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="basicthreading" ConfigName="Debug"/>
+      <Project Name="thredingprimeno" ConfigName="Debug"/>
+      <Project Name="primewithmutex" ConfigName="Debug"/>
+      <Project Name="semaphorethreading" ConfigName="Debug"/>
+      <Project Name="mutex_problme" ConfigName="Debug"/>
+      <Project Name="countingthreading" ConfigName="Debug"/>
+      <Project Name="sumarray_mutex" ConfigName="Debug"/>
+      <Project Name="bankbalancemutexx" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="basicthreading" ConfigName="Release"/>
+      <Project Name="thredingprimeno" ConfigName="Release"/>
+      <Project Name="primewithmutex" ConfigName="Release"/>
+      <Project Name="semaphorethreading" ConfigName="Release"/>
+      <Project Name="mutex_problme" ConfigName="Release"/>
+      <Project Name="countingthreading" ConfigName="Release"/>
+      <Project Name="sumarray_mutex" ConfigName="Release"/>
+      <Project Name="bankbalancemutexx" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

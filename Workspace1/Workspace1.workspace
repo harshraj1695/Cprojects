@@ -24,7 +24,7 @@
   <Project Name="qsort" Path="qsort/qsort.project" Active="No"/>
   <Project Name="doublebasicpointer" Path="doublebasicpointer/doublebasicpointer.project" Active="No"/>
   <Project Name="linkedlist" Path="linkedlist/linkedlist.project" Active="No"/>
-  <Project Name="stack" Path="stack/stack.project" Active="No"/>
+  <Project Name="stack" Path="stack/stack.project" Active="Yes"/>
   <Project Name="signal" Path="signal/signal.project" Active="No"/>
   <Project Name="signal" Path="signal/signal.project" Active="No"/>
   <Project Name="singnalhandler" Path="singnalhandler/singnalhandler.project" Active="No"/>
@@ -37,7 +37,7 @@
   <Project Name="mutextmutithread" Path="mutextmutithread/mutextmutithread.project" Active="No"/>
   <Project Name="deadlockmutex\" Path="deadlockmutex\/deadlockmutex\.project" Active="No"/>
   <Project Name="trylock" Path="trylock/trylock.project" Active="No"/>
-  <Project Name="conditionalmutex" Path="conditionalmutex/conditionalmutex.project" Active="Yes"/>
+  <Project Name="conditionalmutex" Path="conditionalmutex/conditionalmutex.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>

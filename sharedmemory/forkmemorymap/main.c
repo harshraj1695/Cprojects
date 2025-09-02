@@ -27,18 +27,19 @@ int main() {
     pid_t pid = fork();
 
     if (pid == 0) {
-        // 👶 Child process
                 sprintf(map, "Hello from child via mmap!\n");
 
         sleep(1);  // Ensure parent writes first
         printf("Child reading from mmap: %s", map);
     } else {
-        // 👨 Parent process
         sprintf(map, "Hello from parent via mmap!\n");
         printf("Parent wrote to mmap.\n");
         sleep(1);
         printf("paret reading from map %s\n",map);
-        wait(NULL); // Wait for child
+        wait(NULL); // waithing for the child to end
+         munmap(map, SIZE);
+        close(fd);
+        shm_unlink(); // cleanup
     }
 
     munmap(map, SIZE);

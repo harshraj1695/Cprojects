@@ -19,20 +19,20 @@ node* createnode(int key) {
     return newnode;
 }
 
-void insert(node **root, int key) {
-    if (key == -1) { // skip null marker
-        return;
-    }
-    if (*root == NULL) {
-        *root = createnode(key);
-        return;
-    }
-    if (key < (*root)->val) {
-        insert(&((*root)->left), key);
-    } else {
-        insert(&((*root)->right), key);
-    }
-}
+//void insert(node **root, int key) {
+//    if (key == -1) { // skip null marker
+//        return;
+//    }
+//    if (*root == NULL) {
+//        *root = createnode(key);
+//        return;
+//    }
+//    if (key < (*root)->val) {
+//        insert(&((*root)->left), key);
+//    } else {
+//        insert(&((*root)->right), key);
+//    }
+//}
 node* insertval(node* root, int val) {
     if (root == NULL) {
         return createnode(val);

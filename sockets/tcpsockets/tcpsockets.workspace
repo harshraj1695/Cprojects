@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="tcpsockets" Database="" Version="10000">
+  <Project Name="tcpserver1" Path="tcpserver1/tcpserver1.project" Active="No"/>
+  <Project Name="client1" Path="client1/client1.project" Active="No"/>
+  <Project Name="tcperver2" Path="tcperver2/tcperver2.project" Active="No"/>
+  <Project Name="clinet2withnum" Path="clinet2withnum/clinet2withnum.project" Active="No"/>
+  <Project Name="tcpservermutiplex" Path="tcpservermutiplex/tcpservermutiplex.project" Active="No"/>
+  <Project Name="tcpcharclient" Path="tcpcharclient/tcpcharclient.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="tcpserver1" ConfigName="Debug"/>
+      <Project Name="client1" ConfigName="Debug"/>
+      <Project Name="tcperver2" ConfigName="Debug"/>
+      <Project Name="clinet2withnum" ConfigName="Debug"/>
+      <Project Name="tcpservermutiplex" ConfigName="Debug"/>
+      <Project Name="tcpcharclient" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="tcpserver1" ConfigName="Release"/>
+      <Project Name="client1" ConfigName="Release"/>
+      <Project Name="tcperver2" ConfigName="Release"/>
+      <Project Name="clinet2withnum" ConfigName="Release"/>
+      <Project Name="tcpservermutiplex" ConfigName="Release"/>
+      <Project Name="tcpcharclient" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

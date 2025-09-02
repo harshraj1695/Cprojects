@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="testing" Database="" Version="10000">
+  <Project Name="withoutfree" Path="withoutfree/withoutfree.project" Active="No"/>
+  <Project Name="segemetation" Path="segemetation/segemetation.project" Active="No"/>
+  <Project Name="completebasic" Path="completebasic/completebasic.project" Active="No"/>
+  <Project Name="danglingponter" Path="danglingponter/danglingponter.project" Active="No"/>
+  <Project Name="memoryleak" Path="memoryleak/memoryleak.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="withoutfree" ConfigName="Debug"/>
+      <Project Name="segemetation" ConfigName="Debug"/>
+      <Project Name="completebasic" ConfigName="Debug"/>
+      <Project Name="danglingponter" ConfigName="Debug"/>
+      <Project Name="memoryleak" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="withoutfree" ConfigName="Release"/>
+      <Project Name="segemetation" ConfigName="Release"/>
+      <Project Name="completebasic" ConfigName="Release"/>
+      <Project Name="danglingponter" ConfigName="Release"/>
+      <Project Name="memoryleak" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

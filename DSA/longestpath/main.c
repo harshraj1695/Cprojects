@@ -60,7 +60,7 @@ int calculateheight(node* root) {
 }
 
 int maxpathsum(node* root) {
-    diameter = 0; 
+//    diameter = 0; 
     calculateheight(root);
     return diameter; // returns nodes
 }

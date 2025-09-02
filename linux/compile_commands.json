@@ -1,0 +1,85 @@
+[{
+  "file": "/home/harsh1695/office/linux/signalfork/main.c",
+  "directory": "/home/harsh1695/office/linux/signalfork",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/signalfork/main.c -o /home/harsh1695/office/linux/signalfork/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/experment/main.c",
+  "directory": "/home/harsh1695/office/linux/experment",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/experment/main.c -o /home/harsh1695/office/linux/experment/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/execv_systemcall2/main.c",
+  "directory": "/home/harsh1695/office/linux/execv_systemcall2",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/execv_systemcall2/main.c -o /home/harsh1695/office/linux/execv_systemcall2/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/basicsignla/main.c",
+  "directory": "/home/harsh1695/office/linux/basicsignla",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/basicsignla/main.c -o /home/harsh1695/office/linux/basicsignla/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/execv_systemcall/main.c",
+  "directory": "/home/harsh1695/office/linux/execv_systemcall",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/execv_systemcall/main.c -o /home/harsh1695/office/linux/execv_systemcall/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/charpointer/main.c",
+  "directory": "/home/harsh1695/office/linux/charpointer",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/charpointer/main.c -o /home/harsh1695/office/linux/charpointer/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/main.c",
+  "directory": "/home/harsh1695/office/linux",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/main.c -o /home/harsh1695/office/linux/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/mutichildproc/main.c",
+  "directory": "/home/harsh1695/office/linux/mutichildproc",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/mutichildproc/main.c -o /home/harsh1695/office/linux/mutichildproc/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/readwrite/main.c",
+  "directory": "/home/harsh1695/office/linux/readwrite",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/readwrite/main.c -o /home/harsh1695/office/linux/readwrite/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/leseek/main.c",
+  "directory": "/home/harsh1695/office/linux/leseek",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/leseek/main.c -o /home/harsh1695/office/linux/leseek/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/duplinux/main.c",
+  "directory": "/home/harsh1695/office/linux/duplinux",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/duplinux/main.c -o /home/harsh1695/office/linux/duplinux/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/read/main.c",
+  "directory": "/home/harsh1695/office/linux/read",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/read/main.c -o /home/harsh1695/office/linux/read/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/practicelup/main.c",
+  "directory": "/home/harsh1695/office/linux/practicelup",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/practicelup/main.c -o /home/harsh1695/office/linux/practicelup/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/main.c",
+  "directory": "/home/harsh1695/office/linux",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/main.c -o /home/harsh1695/office/linux/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/dup2/main.c",
+  "directory": "/home/harsh1695/office/linux/dup2",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/dup2/main.c -o /home/harsh1695/office/linux/dup2/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/zombie/main.c",
+  "directory": "/home/harsh1695/office/linux/zombie",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/zombie/main.c -o /home/harsh1695/office/linux/zombie/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/dynamimemory/main.c",
+  "directory": "/home/harsh1695/office/linux/dynamimemory",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/dynamimemory/main.c -o /home/harsh1695/office/linux/dynamimemory/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/orphanprocess/main.c",
+  "directory": "/home/harsh1695/office/linux/orphanprocess",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/orphanprocess/main.c -o /home/harsh1695/office/linux/orphanprocess/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/cowinprocess/main.c",
+  "directory": "/home/harsh1695/office/linux/cowinprocess",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/cowinprocess/main.c -o /home/harsh1695/office/linux/cowinprocess/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/linux/main.c",
+  "directory": "/home/harsh1695/office/linux/linux",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/linux/main.c -o /home/harsh1695/office/linux/linux/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/linux/test/main.c",
+  "directory": "/home/harsh1695/office/linux/test",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/linux/test/main.c -o /home/harsh1695/office/linux/test/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }]

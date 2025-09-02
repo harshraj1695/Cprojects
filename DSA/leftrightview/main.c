@@ -81,6 +81,7 @@ void recursionleft(node* root, int level, int** res, int* size)
     recursionleft(root->left, level + 1, res, size);
     recursionleft(root->right, level + 1, res, size);
 }
+
 void recursionright(node* root, int level, int** res, int* size)
 {
     if(root == NULL)
@@ -110,9 +111,6 @@ int main(int argc, char** argv)
     }
     printf("\n");
     free(res);
-
-
-
 
     int* res2 = NULL;
     int size2 = 0;

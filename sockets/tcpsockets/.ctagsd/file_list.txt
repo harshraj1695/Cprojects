@@ -1,0 +1,6 @@
+/home/harsh1695/office/sockets/tcpsockets/tcpcharclient/main.c
+/home/harsh1695/office/sockets/tcpsockets/tcpservermutiplex/main.c
+/home/harsh1695/office/sockets/tcpsockets/clinet2withnum/main.c
+/home/harsh1695/office/sockets/tcpsockets/tcperver2/main.c
+/home/harsh1695/office/sockets/tcpsockets/client1/main.c
+/home/harsh1695/office/sockets/tcpsockets/tcpserver1/main.c
