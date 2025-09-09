@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="fifosnamedpipes" Database="" Version="10000">
-  <Project Name="sender" Path="sender/sender.project" Active="No"/>
-  <Project Name="receiver" Path="writer/writer.project" Active="Yes"/>
+  <Project Name="sender" Path="sender/sender.project" Active="Yes"/>
+  <Project Name="receiver" Path="writer/writer.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>

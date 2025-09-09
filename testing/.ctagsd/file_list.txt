@@ -1,0 +1,5 @@
+/home/harsh1695/office/testing/memoryleak/main.c
+/home/harsh1695/office/testing/completebasic/main.c
+/home/harsh1695/office/testing/danglingponter/main.c
+/home/harsh1695/office/testing/segemetation/main.c
+/home/harsh1695/office/testing/withoutfree/main.c

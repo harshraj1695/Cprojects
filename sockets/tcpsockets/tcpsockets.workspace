@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="tcpsockets" Database="" Version="10000">
+  <Project Name="tcpserver1" Path="tcpserver1/tcpserver1.project" Active="No"/>
+  <Project Name="client1" Path="client1/client1.project" Active="No"/>
+  <Project Name="tcperver2" Path="tcperver2/tcperver2.project" Active="No"/>
+  <Project Name="clinet2withnum" Path="clinet2withnum/clinet2withnum.project" Active="No"/>
+  <Project Name="tcpservermutiplex" Path="tcpservermutiplex/tcpservermutiplex.project" Active="Yes"/>
+  <Project Name="tcpcharclient" Path="tcpcharclient/tcpcharclient.project" Active="No"/>
+  <Project Name="tcpserverpractice" Path="tcpserverpractice/tcpserverpractice.project" Active="No"/>
+  <Project Name="udpserver" Path="udpserver/udpserver.project" Active="No"/>
+  <Project Name="udpclinet" Path="udpclinet/udpclinet.project" Active="No"/>
+  <Project Name="threadserver" Path="withouselectserver/withouselectserver.project" Active="No"/>
+  <Project Name="threadclient" Path="witoutselectcleint/witoutselectcleint.project" Active="No"/>
+  <Project Name="nothreadnoselectclient" Path="nothreadnoselectclient/nothreadnoselectclient.project" Active="No"/>
+  <Project Name="threadchatserver" Path="threadchatserver/threadchatserver.project" Active="No"/>
+  <Project Name="threadpoolselect" Path="threadpoolselect/threadpoolselect.project" Active="No"/>
+  <Project Name="forkchatserver" Path="forkchatserver/forkchatserver.project" Active="No"/>
+  <Project Name="forkchatclient" Path="forkchatclient/forkchatclient.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="tcpserver1" ConfigName="Debug"/>
+      <Project Name="client1" ConfigName="Debug"/>
+      <Project Name="tcperver2" ConfigName="Debug"/>
+      <Project Name="clinet2withnum" ConfigName="Debug"/>
+      <Project Name="tcpservermutiplex" ConfigName="Debug"/>
+      <Project Name="tcpcharclient" ConfigName="Debug"/>
+      <Project Name="tcpserverpractice" ConfigName="Debug"/>
+      <Project Name="udpserver" ConfigName="Debug"/>
+      <Project Name="udpclinet" ConfigName="Debug"/>
+      <Project Name="threadserver" ConfigName="Debug"/>
+      <Project Name="threadclient" ConfigName="Debug"/>
+      <Project Name="nothreadnoselectclient" ConfigName="Debug"/>
+      <Project Name="threadchatserver" ConfigName="Debug"/>
+      <Project Name="threadpoolselect" ConfigName="Debug"/>
+      <Project Name="forkchatserver" ConfigName="Debug"/>
+      <Project Name="forkchatclient" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="tcpserver1" ConfigName="Release"/>
+      <Project Name="client1" ConfigName="Release"/>
+      <Project Name="tcperver2" ConfigName="Release"/>
+      <Project Name="clinet2withnum" ConfigName="Release"/>
+      <Project Name="tcpservermutiplex" ConfigName="Release"/>
+      <Project Name="tcpcharclient" ConfigName="Release"/>
+      <Project Name="tcpserverpractice" ConfigName="Release"/>
+      <Project Name="udpserver" ConfigName="Release"/>
+      <Project Name="udpclinet" ConfigName="Release"/>
+      <Project Name="threadserver" ConfigName="Release"/>
+      <Project Name="threadclient" ConfigName="Release"/>
+      <Project Name="nothreadnoselectclient" ConfigName="Release"/>
+      <Project Name="threadchatserver" ConfigName="Release"/>
+      <Project Name="threadpoolselect" ConfigName="Release"/>
+      <Project Name="forkchatserver" ConfigName="Release"/>
+      <Project Name="forkchatclient" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

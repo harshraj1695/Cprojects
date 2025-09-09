@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ conditionalmutex - Debug ]----------"
-	@cd "conditionalmutex" && "$(MAKE)" -f  "conditionalmutex.mk"
+	@echo "----------Building project:[ projectextern - Debug ]----------"
+	@cd "projectextern" && "$(MAKE)" -f  "projectextern.mk"
 clean:
-	@echo "----------Cleaning project:[ conditionalmutex - Debug ]----------"
-	@cd "conditionalmutex" && "$(MAKE)" -f  "conditionalmutex.mk" clean
+	@echo "----------Cleaning project:[ projectextern - Debug ]----------"
+	@cd "projectextern" && "$(MAKE)" -f  "projectextern.mk" clean

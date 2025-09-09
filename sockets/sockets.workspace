@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="sockets" Database="" Version="10000">
-  <Project Name="rawsockets" Path="rawsockets/rawsockets.project" Active="Yes"/>
+  <Project Name="rawsockets" Path="rawsockets/rawsockets.project" Active="No"/>
+  <Project Name="unixserver" Path="unixserver/unixserver.project" Active="No"/>
+  <Project Name="unixclient" Path="unixclient/unixclient.project" Active="No"/>
+  <Project Name="serversignlaunix" Path="serversignlaunix/serversignlaunix.project" Active="No"/>
+  <Project Name="connectstringserver" Path="connectstringserver/connectstringserver.project" Active="No"/>
+  <Project Name="connectstringclient" Path="connectstringclient/connectstringclient.project" Active="No"/>
+  <Project Name="connectarraayserver" Path="connectarraayserver/connectarraayserver.project" Active="No"/>
+  <Project Name="unixserver1" Path="unixserver1/unixserver1.project" Active="Yes"/>
+  <Project Name="newclient1" Path="newclient1/newclient1.project" Active="No"/>
+  <Project Name="server1" Path="server1/server1.project" Active="No"/>
+  <Project Name="client1" Path="client1/client1.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="rawsockets" ConfigName="Debug"/>
+      <Project Name="unixserver" ConfigName="Debug"/>
+      <Project Name="unixclient" ConfigName="Debug"/>
+      <Project Name="serversignlaunix" ConfigName="Debug"/>
+      <Project Name="connectstringserver" ConfigName="Debug"/>
+      <Project Name="connectstringclient" ConfigName="Debug"/>
+      <Project Name="connectarraayserver" ConfigName="Debug"/>
+      <Project Name="unixserver1" ConfigName="Debug"/>
+      <Project Name="newclient1" ConfigName="Debug"/>
+      <Project Name="server1" ConfigName="Debug"/>
+      <Project Name="client1" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="rawsockets" ConfigName="Release"/>
+      <Project Name="unixserver" ConfigName="Release"/>
+      <Project Name="unixclient" ConfigName="Release"/>
+      <Project Name="serversignlaunix" ConfigName="Release"/>
+      <Project Name="connectstringserver" ConfigName="Release"/>
+      <Project Name="connectstringclient" ConfigName="Release"/>
+      <Project Name="connectarraayserver" ConfigName="Release"/>
+      <Project Name="unixserver1" ConfigName="Release"/>
+      <Project Name="newclient1" ConfigName="Release"/>
+      <Project Name="server1" ConfigName="Release"/>
+      <Project Name="client1" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

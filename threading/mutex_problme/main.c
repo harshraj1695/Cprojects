@@ -1,0 +1,63 @@
+#include <pthread.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <math.h>
+
+typedef struct Range {
+    int start;
+    int end;
+    int threadid;
+} Range;
+
+pthread_mutex_t lock; 
+
+int is_prime(int n) {
+    if (n <= 1) return 0;
+    for (int i = 2; i * i <= n; i++) {
+        if (n % i == 0) return 0;
+    }
+    return 1;
+}
+
+void* find_primes(void* arg) {
+    Range* range = (Range*)arg;
+    pthread_mutex_lock(&lock); 
+    for (int i = range->start; i <= range->end; i++) {
+        if (is_prime(i)) {
+            printf("Thread %d: %d is prime\n", range->threadid, i);
+        }
+        
+    }
+    pthread_mutex_unlock(&lock); 
+    free(range);
+    return NULL;
+}
+
+int main(int argc, char** argv) {
+    int num, size_thread;
+    printf("Enter the range from 2 to end point till where you want to find the prime no: ");
+    scanf("%d", &num);
+    printf("Enter the number of threads: ");
+    scanf("%d", &size_thread);
+
+    pthread_t thread[size_thread];
+    pthread_mutex_init(&lock, NULL);  // mutex intitialization
+    int chunk = num / size_thread;
+    
+    // loop for range nad operation assignment
+    for (int i = 0; i < size_thread; i++) {
+        Range* r = (Range*)malloc(sizeof(Range));
+        r->start = i * chunk + 1;
+        r->end = (i == size_thread - 1) ? num : (i + 1) * chunk;
+        r->threadid = i + 1;
+        pthread_create(&thread[i], NULL, find_primes, r);
+    }
+
+    for (int i = 0; i < size_thread; i++) {
+        pthread_join(thread[i], NULL);
+    }
+
+    pthread_mutex_destroy(&lock); 
+    return 0;
+}

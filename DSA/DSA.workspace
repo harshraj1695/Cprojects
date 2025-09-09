@@ -3,7 +3,7 @@
   <Project Name="parathesisMatching" Path="parathesisMatching/parathesisMatching.project" Active="No"/>
   <Project Name="STACK" Path="STACK/STACK.project" Active="No"/>
   <Project Name="binarytree" Path="binarytree/binarytree.project" Active="No"/>
-  <Project Name="BST" Path="BST/BST.project" Active="Yes"/>
+  <Project Name="BST" Path="BST/BST.project" Active="No"/>
   <Project Name="heightoftree" Path="heightoftree/heightoftree.project" Active="No"/>
   <Project Name="leftrightview" Path="leftrightview/leftrightview.project" Active="No"/>
   <Project Name="divisontree" Path="divisontree/divisontree.project" Active="No"/>
@@ -12,6 +12,19 @@
   <Project Name="longestpath" Path="longestpath/longestpath.project" Active="No"/>
   <Project Name="pathsum" Path="pathsum/pathsum.project" Active="No"/>
   <Project Name="flipnode" Path="flipnode/flipnode.project" Active="No"/>
+  <Project Name="btree" Path="btree/btree.project" Active="No"/>
+  <Project Name="bbst" Path="bbst/bbst.project" Active="No"/>
+  <Project Name="siglelist" Path="siglelist/siglelist.project" Active="No"/>
+  <Project Name="doubly" Path="doubly/doubly.project" Active="No"/>
+  <Project Name="file" Path="file/file.project" Active="No"/>
+  <Project Name="checkbit" Path="checkbit/checkbit.project" Active="No"/>
+  <Project Name="arraypointer" Path="arraypointer/arraypointer.project" Active="No"/>
+  <Project Name="heap" Path="heap/heap.project" Active="No"/>
+  <Project Name="heap1" Path="heap1/heap1.project" Active="Yes"/>
+  <Project Name="tezt" Path="tezt/tezt.project" Active="No"/>
+  <Project Name="queue" Path="queue/queue.project" Active="No"/>
+  <Project Name="cicrcularqueue" Path="cicrcularqueue/cicrcularqueue.project" Active="No"/>
+  <Project Name="test" Path="test/test.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -27,6 +40,19 @@
       <Project Name="longestpath" ConfigName="Debug"/>
       <Project Name="pathsum" ConfigName="Debug"/>
       <Project Name="flipnode" ConfigName="Debug"/>
+      <Project Name="btree" ConfigName="Debug"/>
+      <Project Name="bbst" ConfigName="Debug"/>
+      <Project Name="siglelist" ConfigName="Debug"/>
+      <Project Name="doubly" ConfigName="Debug"/>
+      <Project Name="file" ConfigName="Debug"/>
+      <Project Name="checkbit" ConfigName="Debug"/>
+      <Project Name="arraypointer" ConfigName="Debug"/>
+      <Project Name="heap" ConfigName="Debug"/>
+      <Project Name="heap1" ConfigName="Debug"/>
+      <Project Name="tezt" ConfigName="Debug"/>
+      <Project Name="queue" ConfigName="Debug"/>
+      <Project Name="cicrcularqueue" ConfigName="Debug"/>
+      <Project Name="test" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -42,6 +68,19 @@
       <Project Name="longestpath" ConfigName="Release"/>
       <Project Name="pathsum" ConfigName="Release"/>
       <Project Name="flipnode" ConfigName="Release"/>
+      <Project Name="btree" ConfigName="Release"/>
+      <Project Name="bbst" ConfigName="Release"/>
+      <Project Name="siglelist" ConfigName="Release"/>
+      <Project Name="doubly" ConfigName="Release"/>
+      <Project Name="file" ConfigName="Release"/>
+      <Project Name="checkbit" ConfigName="Release"/>
+      <Project Name="arraypointer" ConfigName="Release"/>
+      <Project Name="heap" ConfigName="Release"/>
+      <Project Name="heap1" ConfigName="Release"/>
+      <Project Name="tezt" ConfigName="Release"/>
+      <Project Name="queue" ConfigName="Release"/>
+      <Project Name="cicrcularqueue" ConfigName="Release"/>
+      <Project Name="test" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

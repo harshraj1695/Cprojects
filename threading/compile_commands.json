@@ -1,0 +1,49 @@
+[{
+  "file": "/home/harsh1695/office/threading/thread_cleanup/main.c",
+  "directory": "/home/harsh1695/office/threading/thread_cleanup",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/threading/thread_cleanup/main.c -o /home/harsh1695/office/threading/thread_cleanup/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/threading/producre_consumer/main.c",
+  "directory": "/home/harsh1695/office/threading/producre_consumer",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/threading/producre_consumer/main.c -o /home/harsh1695/office/threading/producre_consumer/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/threading/bankbalancemutexx/main.c",
+  "directory": "/home/harsh1695/office/threading/bankbalancemutexx",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/threading/bankbalancemutexx/main.c -o /home/harsh1695/office/threading/bankbalancemutexx/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/threading/countingthreading/main.c",
+  "directory": "/home/harsh1695/office/threading/countingthreading",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/threading/countingthreading/main.c -o /home/harsh1695/office/threading/countingthreading/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/threading/sumarray_mutex/main.c",
+  "directory": "/home/harsh1695/office/threading/sumarray_mutex",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/threading/sumarray_mutex/main.c -o /home/harsh1695/office/threading/sumarray_mutex/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/threading/mutex_problme/main.c",
+  "directory": "/home/harsh1695/office/threading/mutex_problme",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/threading/mutex_problme/main.c -o /home/harsh1695/office/threading/mutex_problme/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/threading/prducer_consumer_refine/main.c",
+  "directory": "/home/harsh1695/office/threading/prducer_consumer_refine",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/threading/prducer_consumer_refine/main.c -o /home/harsh1695/office/threading/prducer_consumer_refine/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/threading/semaphorethreading/main.c",
+  "directory": "/home/harsh1695/office/threading/semaphorethreading",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/threading/semaphorethreading/main.c -o /home/harsh1695/office/threading/semaphorethreading/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/threading/primewithmutex/main.c",
+  "directory": "/home/harsh1695/office/threading/primewithmutex",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/threading/primewithmutex/main.c -o /home/harsh1695/office/threading/primewithmutex/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/threading/thredingprimeno/main.c",
+  "directory": "/home/harsh1695/office/threading/thredingprimeno",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/threading/thredingprimeno/main.c -o /home/harsh1695/office/threading/thredingprimeno/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/threading/dining_cnsumer/main.c",
+  "directory": "/home/harsh1695/office/threading/dining_cnsumer",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/threading/dining_cnsumer/main.c -o /home/harsh1695/office/threading/dining_cnsumer/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }, {
+  "file": "/home/harsh1695/office/threading/basicthreading/main.c",
+  "directory": "/home/harsh1695/office/threading/basicthreading",
+  "command": "/usr/bin/gcc -c /home/harsh1695/office/threading/basicthreading/main.c -o /home/harsh1695/office/threading/basicthreading/main.c.o -target x86_64-linux-gnu -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }]

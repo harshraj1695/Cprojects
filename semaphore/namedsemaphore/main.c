@@ -1,54 +1,37 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <fcntl.h>      // O_CREAT, O_EXCL
-#include <sys/stat.h>   // For mode constants
+#include <unistd.h>
 #include <semaphore.h>
-#include <unistd.h>     // fork, sleep, getpid
-#include <sys/wait.h>   // wait
+#include <fcntl.h>
+#include <sys/stat.h>
 
-#define SEM_NAME "/my_named_semaphore"
+#define SEM_NAME "/mysem"
 
 int main() {
     sem_t *sem;
 
-    // Create the named semaphore with initial value 1 because firt child have to finish exxecution and than 
-    // parent after incresing the semaphore value
-    sem = sem_open(SEM_NAME, O_CREAT | O_EXCL, 0644, 1);
+    // create semaphore with initial value = 0
+    sem_unlink(SEM_NAME); // remove old one if exists
+    sem = sem_open(SEM_NAME, O_CREAT, 0644, 0);
     if (sem == SEM_FAILED) {
-        perror("sem_open (creating)");
-        sem = sem_open(SEM_NAME, 0);  // Try opening if already created
-        if (sem == SEM_FAILED) {
-            perror("sem_open (opening existing)");
-            exit(EXIT_FAILURE);
-        }
+        perror("sem_open");
+        exit(1);
     }
 
-    pid_t pid = fork();
-    if (pid < 0) {
-        perror("fork failed");
+    if (fork() == 0) {
+        // Child process
+        printf("Child: waiting...\n");
+        sem_wait(sem);   // wait until parent signals
+        printf("Child: got signal!\n");
         sem_close(sem);
-        sem_unlink(SEM_NAME);
-        exit(EXIT_FAILURE);
-    }
-
-    for (int i = 0; i < 3; i++) {
-        sem_wait(sem);  // Lock (enter critical section)
-
-        printf("Process %d: In critical section (iteration %d)\n", getpid(), i+1);
-        sleep(1);  // Simulate work
-        printf("Process %d: Leaving critical section (iteration %d)\n", getpid(), i+1);
-
-        sem_post(sem);  // Unlock (exit critical section)
-
-        sleep(1);  // Simulate non-critical work
-    }
-
-    if (pid > 0) {
-        wait(NULL);         // Wait for child to finish
-        sem_close(sem);     // Close in parent
-        sem_unlink(SEM_NAME);  // Unlink semaphore (cleanup)
+        exit(0);
     } else {
-        sem_close(sem);     // Close in child
+        // Parent process
+        sleep(2);
+        printf("Parent: posting signal\n");
+        sem_post(sem);   // signal child
+        sem_close(sem);
+        sem_unlink(SEM_NAME); // cleanup
     }
 
     return 0;
