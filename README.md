@@ -79,7 +79,7 @@ Cprojects/
 ├── version4.project               # Project metadata
 └── README.md                      # Documentation
 
-
+```
 ---
 
 ## ⚙️ Features
@@ -143,9 +143,7 @@ Run them in different terminals:
 
 ---
 
-## 📜 License
-This repository is intended for **educational purposes** and personal practice.  
-Feel free to explore, use, and modify the code.
+
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
@@ -169,15 +167,3 @@ Run them in different terminals:
 ```
 
 ---
-
-## 🛠 Requirements
-
-- GCC / Clang compiler  
-- Linux / Unix environment (for sockets, threads, IPC)  
-
----
-
-## 📜 License
-
-This repository is intended for **educational purposes** and personal practice.  
-Feel free to explore, use, and modify the code.
