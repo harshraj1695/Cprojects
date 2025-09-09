@@ -5,9 +5,7 @@ The purpose of this repo is for practice, learning, and reference.
 
 ---
 
-## 📌 Repository Structure
 
-```
 # 📂 C Projects Collection
 
 This repository contains a wide variety of **C programming projects** covering topics such as:
