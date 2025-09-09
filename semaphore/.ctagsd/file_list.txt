@@ -1,2 +1,0 @@
-/home/harsh1695/office/semaphore/unnmaedsemaphore/main.c
-/home/harsh1695/office/semaphore/namedsemaphore/main.c

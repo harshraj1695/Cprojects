@@ -1,2 +1,0 @@
-/home/harsh1695/office/pipes/simple/main.c
-/home/harsh1695/office/pipes/twowaycommunication/main.c

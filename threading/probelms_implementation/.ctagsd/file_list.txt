@@ -1,3 +1,0 @@
-/home/harsh1695/office/threading/probelms_implementation/producer_consumer/main.c
-/home/harsh1695/office/threading/probelms_implementation/producer_consumer_refine/main.c
-/home/harsh1695/office/threading/probelms_implementation/dining_philospher/main.c

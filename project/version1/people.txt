@@ -1,2 +1,0 @@
-harsh:22:male:harsh@gmail.com:789
-yash:20:male:yash@mail:7896541235

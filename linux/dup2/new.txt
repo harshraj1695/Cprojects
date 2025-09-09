@@ -1,2 +1,0 @@
-dhgfd
-writing in file not on termnial with printf function wit file fd 3 termnial with printf function wit file fd 3

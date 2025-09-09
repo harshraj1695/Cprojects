@@ -1,2 +1,0 @@
-/home/harsh1695/office/fifosnamedpipes/writer/main.c
-/home/harsh1695/office/fifosnamedpipes/sender/main.c
