@@ -1,2 +1,23 @@
-a.out
-*.out
+# Build artifacts
+*.mk
+Makefile
+Debug/
+
+# IDE / Editor configs
+*.clangd
+*.clang-format
+*.project
+*.workspace
+*.session
+*.tags
+*.db
+
+# JSON and text files
+*.json
+*.txt
+
+# Specific files
+version4.txt
+version4.project
+people.txt
+
