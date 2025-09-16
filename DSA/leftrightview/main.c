@@ -66,21 +66,40 @@ void preorder(node* root)
     inorder(root->right);
 }
 
-void recursionleft(node* root, int level, int** res, int* size)
-{
-    if(root == NULL)
-        return;
+//void recursionleft(node* root, int level, int** res, int* size)
+//{
+//    if(root == NULL)
+//        return;
+//
+//    // If size == level, it means this level is visited first time
+//    if(*size == level) {
+//        *res = realloc(*res, (*size + 1) * sizeof(int));
+//        (*res)[*size] = root->val;
+//        (*size)++;
+//    }
+//
+//    recursionleft(root->left, level + 1, res, size);
+//    recursionleft(root->right, level + 1, res, size);
+//}
 
-    // If size == level, it means this level is visited first time
-    if(*size == level) {
-        *res = realloc(*res, (*size + 1) * sizeof(int));
-        (*res)[*size] = root->val;
-        (*size)++;
+
+
+
+
+
+
+void leftview(node *root, int size, int level){
+    if(root==NULL) return;
+    
+    if(size==level){
+        printf("%d-> ",root->val);
+        size++;
     }
-
-    recursionleft(root->left, level + 1, res, size);
-    recursionleft(root->right, level + 1, res, size);
+    leftview(root->left, size,level+1);
+    leftview(root->right,size,level+1);
 }
+
+
 
 void recursionright(node* root, int level, int** res, int* size)
 {
@@ -102,25 +121,26 @@ int main(int argc, char** argv)
     printf("Build your binary tree:\n");
     node* root = insertval();
 
-    int* res = NULL;
-    int size = 0;
-    recursionleft(root, 0, &res, &size);
+//    int* res = NULL;
+//    int size = 0;
+//    recursionleft(root, 0, &res, &size);
     printf("Left view: ");
-    for(int i = 0; i < size; i++) {
-        printf("%d ", res[i]);
-    }
-    printf("\n");
-    free(res);
-
-    int* res2 = NULL;
-    int size2 = 0;
-    recursionleft(root, 0, &res2, &size2);
-    printf("right view: ");
-    for(int i = 0; i < size2; i++) {
-        printf("%d ", res2[i]);
-    }
-    printf("\n");
-    free(res);
+    leftview(root, 0,0);
+//    for(int i = 0; i < size; i++) {
+//        printf("%d ", res[i]);
+//    }
+//    printf("\n");
+//    free(res);
+//
+//    int* res2 = NULL;
+//    int size2 = 0;
+//    recursionleft(root, 0, &res2, &size2);
+//    printf("right view: ");
+//    for(int i = 0; i < size2; i++) {
+//        printf("%d ", res2[i]);
+//    }
+//    printf("\n");
+//    free(res);
 
     return 0;
 }

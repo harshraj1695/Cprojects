@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include "barrier.h"
 
-// Initialize barrier
 int my_barrier_init(my_barrier_t* barrier, int count) {
     if (count <= 0) return -1;
     barrier->tripCount = count;
@@ -14,7 +13,6 @@ int my_barrier_init(my_barrier_t* barrier, int count) {
     return 0;
 }
 
-// Wait at barrier
 int my_barrier_wait(my_barrier_t* barrier) {
     pthread_mutex_lock(&barrier->mutex);
 
@@ -23,12 +21,11 @@ int my_barrier_wait(my_barrier_t* barrier) {
     barrier->count++;
 
     if (barrier->count == barrier->tripCount) {
-        // Last thread arrives → reset and release all
         barrier->generation++;
         barrier->count = 0;
         pthread_cond_broadcast(&barrier->cond);
         pthread_mutex_unlock(&barrier->mutex);
-        return 1; // special return value for "serial thread"
+        return 1; 
     }
 
     while (gen == barrier->generation) {
@@ -39,7 +36,6 @@ int my_barrier_wait(my_barrier_t* barrier) {
     return 0;
 }
 
-// Destroy barrier
 int my_barrier_destroy(my_barrier_t* barrier) {
     pthread_mutex_destroy(&barrier->mutex);
     pthread_cond_destroy(&barrier->cond);
