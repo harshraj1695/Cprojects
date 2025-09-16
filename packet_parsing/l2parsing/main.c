@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <strings.h> // for strcasecmp and strncasecmp
 
-// --- Hex to byte conversion ---
+// Hex to byte conversion 
 int hextobyte(char c1, char c2)
 {
     int hi, lo;
@@ -24,7 +25,7 @@ int hextobyte(char c1, char c2)
     return hi * 16 + lo;
 }
 
-// --- Print MAC ---
+// Print MAC Address
 void printMAC(char* input, int start)
 {
     for(int i = 0; i < 6; i++) {
@@ -32,19 +33,6 @@ void printMAC(char* input, int start)
         printf("%02x", b);
         if(i < 5)
             printf(":");
-    }
-    printf("\n");
-}
-
-// --- Print IPv6 ---
-// --- Print IPv6 ---
-void printIPv6(char* input, int start)
-{
-    for(int i = 0; i < 16; i++) {
-        int b1 = hextobyte(input[start + i * 2], input[start + i * 2 + 1]);
-        if(i % 2 == 0 && i != 0)
-            printf(":"); // put colon every 2 bytes
-        printf("%02x", b1);
     }
     printf("\n");
 }
@@ -59,7 +47,7 @@ int main()
     scanf("%s", head);
     int ipv6_start = 28; // Ethernet header is 14 bytes, which is 28 hex characters.
 
-    // --- L2 (Ethernet) ---
+    // L2 Header processing
     printf("Destination MAC address: ");
     printMAC(head, 0);
     printf("Source MAC address: ");
@@ -77,7 +65,9 @@ int main()
         ipv6 = 1;
     }
 
-    // --- L3 (IPv4) ---
+    // L3 Header processing
+
+    // If the case is for IPV4
     if(ipv4) {
         int ipv4_start_hex = 28; // Ethernet header is 14 bytes, which is 28 hex characters.
 
@@ -117,7 +107,7 @@ int main()
         printf("\n");
     }
 
-    // --- L3 (IPv6) ---
+    //  If the case is for IPV6
     if(ipv6) {
         l3size = 40;
 
@@ -154,13 +144,17 @@ int main()
         printf("\n");
     }
 
-    // --- L4 (TCP/UDP) ---
+    // L4 Header processing
+
+    // for case of TCP connection
     if(tcp) {
         int tcp_start_hex;
-        if(ipv4)
+        if(ipv4) {
             tcp_start_hex = 28 + l3size * 2;
-        else
+
+        } else {
             tcp_start_hex = 28 + 40 * 2;
+        }
 
         int src_port = (hextobyte(head[tcp_start_hex], head[tcp_start_hex + 1]) << 8) |
                        hextobyte(head[tcp_start_hex + 2], head[tcp_start_hex + 3]);
@@ -170,27 +164,27 @@ int main()
         printf("TCP Source Port: %d\n", src_port);
         printf("TCP Destination Port: %d\n", dst_port);
     }
-
+    // for case of UDP connection
     if(udp) {
-    int udp_start_hex;
-    if(ipv4)
-        udp_start_hex = 28 + l3size * 2;   // after IPv4 header
-    else
-        udp_start_hex = 28 + 40 * 2;       // after IPv6 header
+        int udp_start_hex;
+        if(ipv4)
+            udp_start_hex = 28 + l3size * 2; // after IPv4 header
+        else
+            udp_start_hex = 28 + 40 * 2; // after IPv6 header
 
-    // --- Source Port ---
-    int src_hi = hextobyte(head[udp_start_hex], head[udp_start_hex + 1]);   // first byte of source port
-    int src_lo = hextobyte(head[udp_start_hex + 2], head[udp_start_hex + 3]); // second byte
-    int src_port = src_hi * 256 + src_lo;    // combine high and low bytes
+        // Source Port
+        int src_hi = hextobyte(head[udp_start_hex], head[udp_start_hex + 1]);     // first byte of source port
+        int src_lo = hextobyte(head[udp_start_hex + 2], head[udp_start_hex + 3]); // second byte
+        int src_port = src_hi * 256 + src_lo;                                     
 
-    // --- Destination Port ---
-    int dst_hi = hextobyte(head[udp_start_hex + 4], head[udp_start_hex + 5]); // first byte of dest port
-    int dst_lo = hextobyte(head[udp_start_hex + 6], head[udp_start_hex + 7]); // second byte
-    int dst_port = dst_hi * 256 + dst_lo;    // combine high and low bytes
+        // Destination Port
+        int dst_hi = hextobyte(head[udp_start_hex + 4], head[udp_start_hex + 5]); // first byte of dest port
+        int dst_lo = hextobyte(head[udp_start_hex + 6], head[udp_start_hex + 7]); // second byte
+        int dst_port = dst_hi * 256 + dst_lo;                                     
 
-    printf("UDP Source Port: %d\n", src_port);
-    printf("UDP Destination Port: %d\n", dst_port);
-}
+        printf("UDP Source Port: %d\n", src_port);
+        printf("UDP Destination Port: %d\n", dst_port);
+    }
 
     return 0;
 }
