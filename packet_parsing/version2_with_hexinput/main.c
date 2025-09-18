@@ -2,7 +2,7 @@
 #include <stdint.h>
 
 int main() {
-    // Example packet: Ethernet + IPv6 + UDP (just sample, can replace with your own)
+     
    unsigned char pkt[] = {
     0x00, 0x16, 0x3e, 0x4a, 0x1b, 0x2c,  
     0x08, 0x00, 0x27, 0x89, 0xab, 0xcd,  
