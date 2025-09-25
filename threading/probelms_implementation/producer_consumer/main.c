@@ -54,15 +54,24 @@ void* consume(void*arg){
     return NULL;
 }
 
-void* produce(void*arg){
+void* produce(void* arg) {
     pthread_mutex_lock(&lock);
-    if(!isFull()){
-        enqueue(3);
-        pthread_cond_signal(&condi);
+
+    // wait until buffer has space
+    while (isFull()) {
+        pthread_cond_wait(&condi, &lock);
     }
+
+    enqueue(3);
+    printf("Produced: 3\n");
+
+    // signal that new item is available for consumers
+    pthread_cond_signal(&condi);
+
     pthread_mutex_unlock(&lock);
     return NULL;
 }
+
 int main(int argc, char **argv)
 {
     pthread_t producer, consumer;

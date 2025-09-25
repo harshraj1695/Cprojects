@@ -66,6 +66,7 @@ int main()
         // check EXIT
         if(strcmp(buffer, "EXIT") == 0) {
             printf("Client %s:%d disconnected\n", inet_ntoa(client.sin_addr), ntohs(client.sin_port));
+            
             continue; // server keeps running
         }
 

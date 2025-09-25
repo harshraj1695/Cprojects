@@ -10,8 +10,7 @@ void* worker(void* arg) {
     while (1) {
         printf("Working...\n");
         sleep(1);   // cancellation point
-        printf("this point will not print print as cancel is called imedeately
-        \n");
+        printf("this point will not print print as cancel is called imedeately\n");
     }
     return NULL;
 }

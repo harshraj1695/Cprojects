@@ -10,6 +10,7 @@ int main(int argc, char **argv)
     close(1);
     dup(fd);
     printf("writting some darta");
+    write(fd,"hiiii",6);
     
 	return 0;
 }
